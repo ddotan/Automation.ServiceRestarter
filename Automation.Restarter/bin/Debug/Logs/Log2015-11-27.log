@@ -1,8 +1,0 @@
-[11/27/2015 5:45:35 PM][INFO]RestarterServices Server Started...........
-[11/27/2015 10:02:58 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:08:02 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:08:05 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:08:10 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:08:26 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:12:20 PM][ERROR]Error while trying load RestarterServices agent : HTTP could not register URL http://+:8000/RestartService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
-[11/27/2015 10:19:01 PM][INFO]RestarterServices Server Started...........

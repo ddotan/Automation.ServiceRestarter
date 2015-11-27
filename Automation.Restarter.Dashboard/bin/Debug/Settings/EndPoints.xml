@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <string>172.25.0.43</string>
+  <string>192.168.15.146</string>
+  <string>192.168.15.143</string>
+  <string>192.168.15.150</string>
+  <string>192.168.15.148</string>
+  <string>192.168.15.153</string>
+  <string>192.168.15.151</string>
+  <string>192.168.15.157</string>
+  <string>172.25.0.44</string>
+  <string>192.168.15.142</string>
+  <string>192.168.15.152</string>
 </ArrayOfString>

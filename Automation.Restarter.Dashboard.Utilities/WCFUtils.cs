@@ -11,11 +11,11 @@ namespace Automation.Restarter.Dashboard.Utilities
     {
         public static class ServiceFactory<T> where T : class
         {
-            private static T m_Service;
+            //private static T m_Service;
 
             public static T GetService(string i_Address)
             {
-                return m_Service ?? (m_Service = GetServiceInstance(i_Address));
+                return  GetServiceInstance(i_Address);
 
             }
 
