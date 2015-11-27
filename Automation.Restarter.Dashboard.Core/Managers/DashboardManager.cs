@@ -39,9 +39,9 @@ namespace Automation.Restarter.Dashboard.Core
         {
             m_AgentsManager.TakeActionOnAllAgents();
         }
-        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName)
+        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName,string i_DisplayName)
         {
-            m_AgentsManager.TakeAction(i_MachineName, i_IP, i_ServiceName);
+            m_AgentsManager.TakeAction(i_MachineName, i_IP, i_ServiceName,i_DisplayName);
         }
     }
 }

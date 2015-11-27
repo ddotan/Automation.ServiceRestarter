@@ -52,7 +52,7 @@ namespace Automation.Restarter.Dashboard.Core
                 }
                 catch (Exception ex)
                 {
-                    SystemLogManager.Instance.Log(eLogType.Error, "TryingCreateChannel", fullEndPoint, string.Empty, ex.Message);
+                    SystemLogManager.Instance.Log(eLogType.Error, "TryingCreateChannel", fullEndPoint, string.Empty, ex.Message,string.Empty);
                     LogManager.Instance.WriteError("Error while trying to CreateChannel , [Endpoint]: " + fullEndPoint + " [Exception]: " + ex.Message);
                 }
             }
@@ -63,7 +63,7 @@ namespace Automation.Restarter.Dashboard.Core
         {
             loadEndPoints();
         }
-        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName)
+        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName,string i_DisplayName)
         {
             LogManager.Instance.WriteInfo("TakeAction action against, [MachineName]: " + i_MachineName + "[IP]: " + i_IP + "[ServiceName]: " + i_ServiceName);
             AgentInstance agentInstance;
@@ -73,11 +73,11 @@ namespace Automation.Restarter.Dashboard.Core
                 Result result = agentInstance.RestartService.RestartService(i_ServiceName);
                 if (result.Done == true)
                 {
-                    SystemLogManager.Instance.Log(eLogType.Info, agentInstance, "Done");
+                    SystemLogManager.Instance.Log(eLogType.Info, agentInstance, i_DisplayName, "Done",result.Elapsed.ToString());
                 }
                 else
                 {
-                    SystemLogManager.Instance.Log(eLogType.Error, agentInstance, "Failed");
+                    SystemLogManager.Instance.Log(eLogType.Error, agentInstance, i_DisplayName, "Failed",result.Elapsed.ToString());
 
                 }
             }
@@ -89,14 +89,23 @@ namespace Automation.Restarter.Dashboard.Core
         public void TakeActionOnAllAgents()
         {
             AgentInstance agent = null;
+            List<Task> tasks = new List<Task>();
+            Task task = null;
             foreach (var keyvalueAgent in m_Agents)
             {
                 agent = keyvalueAgent.Value;
                 foreach (var service in agent.Services)
                 {
-                    TakeAction(agent.ComputerName, agent.IP, service.Value);
+                    task = new Task(() =>
+                {
+                    TakeAction(agent.ComputerName, agent.IP, service.Value,service.Key);
+                });
+                    task.Start();
+                    tasks.Add(task);
+
                 }
             }
+            Task.WaitAll(tasks.ToArray());
         }
     }
 }

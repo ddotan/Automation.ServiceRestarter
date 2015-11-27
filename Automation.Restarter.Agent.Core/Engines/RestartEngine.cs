@@ -59,8 +59,8 @@ namespace Automation.Restarter.Agent.Core.Engines
                     case eOperationType.StopService:
                         if (serviceIsRunning)
                         {
-                            Thread.Sleep(TimeSpan.FromSeconds(m_Configurations.WaitTimeBetweenActions));
                             ServiceUtils.StopService(i_ServiceName, m_Configurations.ServiceChangeStateWaitTime);
+                            Thread.Sleep(TimeSpan.FromSeconds(m_Configurations.WaitTimeBetweenActions));
                         }
                         break;
                     case eOperationType.ServiceRestart:

@@ -36,22 +36,26 @@ namespace Automation.Restarter.Dashboard.Core.Repository
 
         private DataGridView m_DataGridView;
 
-        public void Log(eLogType i_LogType, string i_MachineName, string i_IP, string i_ServiceName, string i_Info)
+        public void Log(eLogType i_LogType, string i_MachineName, string i_IP, string i_ServiceName, string i_Info,string i_Elapsed)
         {
-            string time = DateTime.Now.ToString();
-            m_DataGridView.Rows.Add(new string[] { DateTime.Now.ToString(), Enum.GetName(typeof(eLogType), i_LogType), i_MachineName, i_IP, i_ServiceName, i_Info });
+            Object obj = new object();
+            lock (obj)
+            {
+                string time = DateTime.Now.ToString();
+                m_DataGridView.Rows.Add(new string[] { DateTime.Now.ToString(), Enum.GetName(typeof(eLogType), i_LogType), i_MachineName, i_IP, i_ServiceName, i_Info, i_Elapsed });
+            }
         }
-        public void Log(eLogType i_LogType, AgentInstance i_AgentInstance, string i_ServiceName, string i_Info)
+        public void Log(eLogType i_LogType, AgentInstance i_AgentInstance, string i_ServiceName, string i_Info,string i_Elapsed)
         {
             string machineName = i_AgentInstance.ComputerName;
             string IP = i_AgentInstance.IP;
-            Log(i_LogType, machineName, IP, i_ServiceName, i_Info);
+            Log(i_LogType, machineName, IP, i_ServiceName, i_Info,i_Elapsed);
         }
-        public void Log(eLogType i_LogType, AgentInstance i_AgentInstance, string i_Info)
+        public void Log(eLogType i_LogType, AgentInstance i_AgentInstance, string i_Info,string i_Elapsed)
         {
             string machineName = i_AgentInstance.ComputerName;
             string IP = i_AgentInstance.IP;
-            Log(i_LogType, machineName, IP, string.Empty, i_Info);
+            Log(i_LogType, machineName, IP, string.Empty, i_Info, i_Elapsed);
         }
 
     }

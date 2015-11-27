@@ -50,8 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgentsManager.cs" />
-    <Compile Include="DashboardManager.cs" />
+    <Compile Include="Managers\AgentsManager.cs" />
+    <Compile Include="Managers\DashboardManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\SystemLogManager.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -20,3 +20,4 @@ C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.csproj.GenerateResource.Cache
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.exe
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.LoadingForm.resources
