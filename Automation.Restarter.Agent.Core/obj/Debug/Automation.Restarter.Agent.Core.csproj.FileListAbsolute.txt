@@ -10,3 +10,15 @@ c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.dll
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Logger.dll
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Logger.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.csprojResolveAssemblyReference.cache
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.pdb

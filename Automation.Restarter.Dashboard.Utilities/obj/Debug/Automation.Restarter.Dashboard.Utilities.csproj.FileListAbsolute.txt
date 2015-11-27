@@ -1,0 +1,4 @@
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.Utilities\bin\Debug\Automation.Restarter.Dashboard.Utilities.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.Utilities\bin\Debug\Automation.Restarter.Dashboard.Utilities.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.Utilities\obj\Debug\Automation.Restarter.Dashboard.Utilities.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.Utilities\obj\Debug\Automation.Restarter.Dashboard.Utilities.pdb

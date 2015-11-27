@@ -1,0 +1,45 @@
+[11/27/2015 9:37:18 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:37:37 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:40:08 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:40:10 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:40:11 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:40:11 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.8768720
+[11/27/2015 9:40:11 PM][INFO]DashboardManager started
+[11/27/2015 9:41:59 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:42:01 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:42:02 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:42:02 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.5378691
+[11/27/2015 9:42:02 PM][INFO]DashboardManager started
+[11/27/2015 9:44:24 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:44:25 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:44:26 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:44:26 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.4918713
+[11/27/2015 9:44:26 PM][INFO]DashboardManager started
+[11/27/2015 9:49:51 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:49:52 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:49:53 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:49:53 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.4888044
+[11/27/2015 9:49:53 PM][INFO]DashboardManager started
+[11/27/2015 9:53:11 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:53:18 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:53:23 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:54:27 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 9:54:28 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:54:30 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:8000/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[11/27/2015 9:54:30 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.8157100
+[11/27/2015 9:54:30 PM][INFO]DashboardManager started
+[11/27/2015 10:12:27 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 10:12:28 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: An item with the same key has already been added.
+[11/27/2015 10:12:28 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.4354412
+[11/27/2015 10:12:28 PM][INFO]DashboardManager started
+[11/27/2015 10:13:36 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 10:13:37 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.6822:8000/RestartService [Exception]: An item with the same key has already been added.
+[11/27/2015 10:13:37 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.4197185
+[11/27/2015 10:13:37 PM][INFO]DashboardManager started
+[11/27/2015 10:13:59 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 10:14:01 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.1505250
+[11/27/2015 10:14:01 PM][INFO]DashboardManager started
+[11/27/2015 10:19:39 PM][INFO]CreateChannel operation on endpoints started
+[11/27/2015 10:19:39 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:00.5883603
+[11/27/2015 10:19:39 PM][INFO]DashboardManager started
+[11/27/2015 10:19:40 PM][INFO]TakeAction action against, [MachineName]: ES-TECHSUPPORT[IP]: 172.25.0.68[ServiceName]: Spooler

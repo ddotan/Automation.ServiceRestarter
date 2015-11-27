@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Agent.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Agent.Core", "Automation.Restarter.Agent.Core\Automation.Restarter.Agent.Core.csproj", "{50B25FA0-9840-4645-B90B-5A8301EB5054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Dashboard", "Automation.Restarter.Dashboard\Automation.Restarter.Dashboard.csproj", "{EEAC4556-79CD-4FD1-B567-190538CB7FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Dashboard.Core", "Automation.Restarter.Dashboard.Core\Automation.Restarter.Dashboard.Core.csproj", "{BEC1B9DC-571C-49BE-B366-7635D04ABC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Dashboard.ObjectModel", "Automation.Restarter.Dashboard.ObjectModel\Automation.Restarter.Dashboard.ObjectModel.csproj", "{B18F1195-63BF-4F39-BEF9-93893527B281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Restarter.Dashboard.Utilities", "Automation.Restarter.Dashboard.Utilities\Automation.Restarter.Dashboard.Utilities.csproj", "{C5E3B57A-1422-44C0-8B59-6173FD38889B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +47,22 @@ Global
 		{50B25FA0-9840-4645-B90B-5A8301EB5054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B25FA0-9840-4645-B90B-5A8301EB5054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B25FA0-9840-4645-B90B-5A8301EB5054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAC4556-79CD-4FD1-B567-190538CB7FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAC4556-79CD-4FD1-B567-190538CB7FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAC4556-79CD-4FD1-B567-190538CB7FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAC4556-79CD-4FD1-B567-190538CB7FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC1B9DC-571C-49BE-B366-7635D04ABC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC1B9DC-571C-49BE-B366-7635D04ABC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC1B9DC-571C-49BE-B366-7635D04ABC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC1B9DC-571C-49BE-B366-7635D04ABC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18F1195-63BF-4F39-BEF9-93893527B281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18F1195-63BF-4F39-BEF9-93893527B281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18F1195-63BF-4F39-BEF9-93893527B281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18F1195-63BF-4F39-BEF9-93893527B281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E3B57A-1422-44C0-8B59-6173FD38889B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E3B57A-1422-44C0-8B59-6173FD38889B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E3B57A-1422-44C0-8B59-6173FD38889B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E3B57A-1422-44C0-8B59-6173FD38889B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

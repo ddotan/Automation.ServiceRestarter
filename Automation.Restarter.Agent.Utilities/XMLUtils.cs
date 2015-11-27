@@ -45,7 +45,7 @@ namespace Automation.Restarter.Agent.Utilities
                 XmlSerializer serializer = new XmlSerializer(typeof(item[]),
                                   new XmlRootAttribute() { ElementName = "Services" });
                 serializer.Serialize(stream,
-                    i_Obj.Select(kv => new item() { id = kv.Key, value = kv.Value }).ToArray());
+                    i_Obj.Select(kv => new item() { DisplayName = kv.Key, ServiceName = kv.Value }).ToArray());
             }
         }
         public static Dictionary<string, string> DictionaryDeSerlize(string i_FilePath)
@@ -56,7 +56,7 @@ namespace Automation.Restarter.Agent.Utilities
                 XmlSerializer serializer = new XmlSerializer(typeof(item[]),
                                   new XmlRootAttribute() { ElementName = "Services" });
                 item = ((item[])serializer.Deserialize(stream))
-                .ToDictionary(i => i.id, i => i.value);
+                .ToDictionary(i => i.DisplayName, i => i.ServiceName);
             }
             return item;
         }

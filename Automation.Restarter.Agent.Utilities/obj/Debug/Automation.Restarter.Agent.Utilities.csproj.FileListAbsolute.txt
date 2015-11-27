@@ -3,3 +3,7 @@ c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.csprojResolveAssemblyReference.cache
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.dll
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\bin\Debug\Automation.Restarter.Agent.Utilities.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.dll
+C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.pdb

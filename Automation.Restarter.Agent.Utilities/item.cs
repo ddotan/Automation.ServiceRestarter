@@ -10,8 +10,8 @@ namespace Automation.Restarter.Agent.Utilities
     public class item
     {
         [XmlAttribute]
-        public string id;
+        public string DisplayName;
         [XmlAttribute]
-        public string value;
+        public string ServiceName;
     }
 }

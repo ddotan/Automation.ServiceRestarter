@@ -3,7 +3,9 @@ using Automation.Restarter.Agent.Core.Repositories;
 using Logger;
 using System;
 using System.Collections.Generic;
+using System.Configuration.Install;
 using System.Linq;
+using System.Reflection;
 using System.ServiceModel;
 using System.ServiceProcess;
 using System.Text;
@@ -19,9 +21,27 @@ namespace Automation.Restarter.Agent
             ServicesRepository s = ServicesRepository.Instance;
             if (System.Environment.UserInteractive)
             {
-                runProgram();
-                while (true) { };
+                string parameter = string.Concat(args);
+                switch (parameter.ToLower())
+                {
+                    case "-install":
+                        ManagedInstallerClass.InstallHelper(new string[] { Assembly.GetExecutingAssembly().Location });
+                        LogManager.Instance.WriteInfo("Service Installed.");
+
+                        break;
+                    case "-console":
+
+                        runProgram();
+                        while(true)
+                        {
+
+                        }
+
+                        break;
+                }
             }
+
+
             else
             {
                 ServiceBase.Run(new Program());
@@ -47,10 +67,18 @@ namespace Automation.Restarter.Agent
 
         private static void runProgram()
         {
-            RestartManager rs = new RestartManager();
-            ServiceHost serviceHost = new ServiceHost(typeof(RestartManager));
-            serviceHost.Open();
-            LogManager.Instance.WriteInfo("RestarterServices Server Started...........");
+            try
+            {
+                RestartManager rs = new RestartManager();
+                ServiceHost serviceHost = new ServiceHost(typeof(RestartManager));
+                serviceHost.Open();
+                LogManager.Instance.WriteInfo("RestarterServices Server Started...........");
+            }
+            catch (Exception ex)
+            {
+                LogManager.Instance.WriteError("Error while trying load RestarterServices agent : " + ex.Message);
+            }
+
         }
         protected override void OnStop()
         {

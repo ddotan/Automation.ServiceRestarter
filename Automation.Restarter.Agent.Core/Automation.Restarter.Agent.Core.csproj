@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engines\RestartEngine.cs" />
-    <Compile Include="Managers\RestartManager.cs" />
+    <Compile Include="Engines\Managers\RestartManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Configurations.cs" />
     <Compile Include="Repositories\ServicesRepository.cs" />
