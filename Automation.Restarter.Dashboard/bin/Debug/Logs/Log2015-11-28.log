@@ -1,0 +1,23 @@
+[11/28/2015 12:17:02 AM][INFO]CreateChannel operation on endpoints started
+[11/28/2015 12:17:04 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.5676280
+[11/28/2015 12:17:04 AM][INFO]DashboardManager started
+[11/28/2015 12:17:07 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43 [DisplayName]: xfrfin-OldFeed [ServiceName]: LeverateeSignalAgentTradeSmarter
+[11/28/2015 12:17:37 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: LeverateeSignalAgentTradeSmarter[DisplayName]: xfrfin-OldFeed [Result]: Done [Elapsed]: 00:00:29.9981443
+[11/28/2015 12:17:37 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43 [DisplayName]: xfrfin-NewFeed [ServiceName]: leverate.feed.esignalagent
+[11/28/2015 12:18:40 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: leverate.feed.esignalagent[DisplayName]: xfrfin-NewFeed [Result]: Done [Elapsed]: 00:01:03.0881012
+[11/28/2015 12:18:40 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL5 [IP]: 172.25.2.144 [DisplayName]: BitStamp [ServiceName]: LeverateeSignalAgentBitStamp
+[11/28/2015 12:19:47 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL5 [IP]: 172.25.2.144[ServiceName]: LeverateeSignalAgentBitStamp[DisplayName]: BitStamp [Result]: Done [Elapsed]: 00:01:07.0386847
+[11/28/2015 12:19:47 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL3 [IP]: 172.25.2.142 [DisplayName]: NetMavrik- NewFeed [ServiceName]: leverate.feed.esignalagent
+[11/28/2015 12:20:36 AM][INFO]CreateChannel operation on endpoints started
+[11/28/2015 12:20:38 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.6682386
+[11/28/2015 12:20:38 AM][INFO]DashboardManager started
+[11/28/2015 12:20:39 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: LeverateeSignalAgentTradeSmarter[DisplayName]: xfrfin-OldFeed => Started
+[11/28/2015 12:21:57 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: LeverateeSignalAgentTradeSmarter[DisplayName]: xfrfin-OldFeed => Done,  [Result]: Success [Elapsed]: 00:01:18.7067015
+[11/28/2015 12:21:57 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: leverate.feed.esignalagent[DisplayName]: xfrfin-NewFeed => Started
+[11/28/2015 12:23:01 AM][INFO]TakeAction action against, [MachineName]: ES-ESIGNAL8 [IP]: 172.25.0.43[ServiceName]: leverate.feed.esignalagent[DisplayName]: xfrfin-NewFeed => Done,  [Result]: Success [Elapsed]: 00:01:03.5466561
+[11/28/2015 12:23:01 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL5 [IP]: 172.25.2.144[ServiceName]: LeverateeSignalAgentBitStamp[DisplayName]: BitStamp => Started
+[11/28/2015 12:24:09 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL5 [IP]: 172.25.2.144[ServiceName]: LeverateeSignalAgentBitStamp[DisplayName]: BitStamp => Done,  [Result]: Success [Elapsed]: 00:01:07.3355099
+[11/28/2015 12:24:09 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL3 [IP]: 172.25.2.142[ServiceName]: leverate.feed.esignalagent[DisplayName]: NetMavrik- NewFeed => Started
+[11/28/2015 12:25:11 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL3 [IP]: 172.25.2.142[ServiceName]: leverate.feed.esignalagent[DisplayName]: NetMavrik- NewFeed => Done,  [Result]: Success [Elapsed]: 00:01:02.0098031
+[11/28/2015 12:25:11 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL3 [IP]: 172.25.2.142[ServiceName]: LeverateeSignalAgentNetmavrik[DisplayName]: NetMavrik- OldFeed => Started
+[11/28/2015 12:26:12 AM][INFO]TakeAction action against, [MachineName]: TPESIGNAL3 [IP]: 172.25.2.142[ServiceName]: LeverateeSignalAgentNetmavrik[DisplayName]: NetMavrik- OldFeed => Done,  [Result]: Success [Elapsed]: 00:01:01.2654500
