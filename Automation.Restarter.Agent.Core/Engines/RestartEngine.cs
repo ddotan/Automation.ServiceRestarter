@@ -74,9 +74,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                             exception = ex.Message;
                         }
                         break;
-                    default:
-                        result.AddResult(i_ServiceName, i_OperationType, stopWatch.Elapsed, true);
-                        break;
+
                 }
 
             }

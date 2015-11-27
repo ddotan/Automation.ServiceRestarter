@@ -44,7 +44,7 @@ namespace Automation.Restarter.Dashboard.Core
             {
                 try
                 {
-                    fullEndPoint = "http://" + endpoint + ":8000/RestartService";
+                    fullEndPoint = "http://" + endpoint + ":5050/RestartService";
                     restartService = WCFUtils.ServiceFactory<IRestartService>.GetService(fullEndPoint);
                     agentInstance = new AgentInstance(restartService);
                     agentInstance.UpdateInstanceInfo();
