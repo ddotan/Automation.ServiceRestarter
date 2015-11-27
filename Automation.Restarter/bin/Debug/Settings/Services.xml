@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <item id="service" value="servicenamer" />
+  <item id="service2" value="servicenamer" />
+  <item id="service3" value="servicenamer" />
+  <item id="service4" value="servicenamer" />
+</Services>

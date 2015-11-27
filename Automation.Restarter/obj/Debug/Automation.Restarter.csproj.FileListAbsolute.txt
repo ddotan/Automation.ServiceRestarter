@@ -1,0 +1,1 @@
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter\bin\Debug\Automation.Restarter.exe.config

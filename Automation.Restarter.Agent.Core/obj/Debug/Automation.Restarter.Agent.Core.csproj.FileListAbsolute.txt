@@ -1,0 +1,12 @@
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.pdb
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.pdb
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.csprojResolveAssemblyReference.cache
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Logger.dll
+c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.pdb
