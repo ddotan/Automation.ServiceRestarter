@@ -5,3 +5,10 @@ c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Contract\obj\Debug\Automation.Restarter.Agent.Contract.pdb
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
 c:\users\dotan.douek\documents\visual studio 2013\Projects\Automation.Restarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.Contract.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.Contract.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\obj\Debug\Automation.Restarter.Agent.Contract.csprojResolveAssemblyReference.cache
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\obj\Debug\Automation.Restarter.Agent.Contract.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Contract\obj\Debug\Automation.Restarter.Agent.Contract.pdb

@@ -22,3 +22,14 @@ C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.dll
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Contract.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.csprojResolveAssemblyReference.cache
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.pdb

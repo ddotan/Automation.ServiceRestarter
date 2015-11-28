@@ -12,16 +12,16 @@ namespace Automation.Restarter.Dashboard.ObjectModel
         public string ComputerName { get; set; }
         public string IP { get; set; }
         public Dictionary<string, string> Services;
-        public IRestartService RestartService;
+        public IRestartService RestartServiceContract;
         public void UpdateInstanceInfo()
         {
-            ComputerName = RestartService.GetComputerHostname();
-            IP = RestartService.GetComputerIP();
-            Services = RestartService.GetServices();
+            ComputerName = RestartServiceContract.GetComputerHostname();
+            IP = RestartServiceContract.GetComputerIP();
+            Services = RestartServiceContract.GetServices();
         }
         public AgentInstance(IRestartService i_IRestartService)
         {
-            RestartService = i_IRestartService;
+            RestartServiceContract = i_IRestartService;
         }
     }
 }

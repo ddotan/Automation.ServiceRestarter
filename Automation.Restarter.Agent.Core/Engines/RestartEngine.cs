@@ -38,6 +38,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 {
                     exception = "[ServiceName]: " + i_ServiceName + " Not exsists";
                     operationDone = false;
+                    return new Result() { OperationType = i_OperationType, Done = false, Exception = ex.Message };
                 }
             }
             else
@@ -68,11 +69,15 @@ namespace Automation.Restarter.Agent.Core.Engines
                         {
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StopService));
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StartService));
+                            operationDone = checkIfOperationFailed(result);
                         }
                         catch (Exception ex)
                         {
                             exception = ex.Message;
+                            operationDone = false;
                         }
+
+
                         break;
 
                 }
@@ -84,12 +89,27 @@ namespace Automation.Restarter.Agent.Core.Engines
                 result.AddResult(i_ServiceName, i_OperationType, stopWatch.Elapsed, false, ex.Message);
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Failed ! with exception: " + ex.Message);
             }
+
+
             stopWatch.Stop();
             result.Elapsed = stopWatch.Elapsed;
             result.Exception = exception;
             result.Done = operationDone;
             return result;
         }
+        bool checkIfOperationFailed(Result i_Result)
+        {
+            bool done = true;
+            foreach (Result rs in i_Result.InnerResults)
+            {
+                if (rs.Done == false)
+                {
+                    done = false;
+                }
+            }
+            return done;
+        }
+
 
     }
 }

@@ -70,7 +70,7 @@ namespace Automation.Restarter.Dashboard.Core
             try
             {
                 agentInstance = m_Agents[i_IP];
-                Result result = agentInstance.RestartService.RestartService(i_ServiceName);
+                Result result = agentInstance.RestartServiceContract.RestartService(i_ServiceName);
                 if (result.Done == true)
                 {
                     SystemLogManager.Instance.Log(eLogType.Info, agentInstance, i_DisplayName, "Success", result.Elapsed.ToString());

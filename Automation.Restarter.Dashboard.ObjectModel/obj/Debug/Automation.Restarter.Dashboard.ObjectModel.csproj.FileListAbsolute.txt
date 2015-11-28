@@ -7,3 +7,12 @@ C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.dll
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Dashboard.ObjectModel.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Dashboard.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Agent.Contract.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Agent.Contract.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.csprojResolveAssemblyReference.cache
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.dll
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.pdb
