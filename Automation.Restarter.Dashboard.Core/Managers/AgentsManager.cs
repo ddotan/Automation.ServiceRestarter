@@ -49,6 +49,8 @@ namespace Automation.Restarter.Dashboard.Core
                     agentInstance = new AgentInstance(restartService);
                     agentInstance.UpdateInstanceInfo();
                     m_Agents.Add(agentInstance.IP, agentInstance);
+                    LogManager.Instance.WriteError("[Endpoint]: " + fullEndPoint );
+
                 }
                 catch (Exception ex)
                 {
