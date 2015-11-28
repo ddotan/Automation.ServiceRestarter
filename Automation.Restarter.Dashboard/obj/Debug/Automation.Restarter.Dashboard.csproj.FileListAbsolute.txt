@@ -22,8 +22,6 @@ C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.exe
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\bin\Debug\Automation.Restarter.Dashboard.exe.config
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.exe
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\bin\Debug\Automation.Restarter.Dashboard.exe
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\bin\Debug\Automation.Restarter.Dashboard.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\bin\Debug\Automation.Restarter.Dashboard.Core.dll
@@ -44,3 +42,5 @@ C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.MainForm.resources
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.Properties.Resources.resources
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.csproj.GenerateResource.Cache
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.exe
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard\obj\Debug\Automation.Restarter.Dashboard.pdb

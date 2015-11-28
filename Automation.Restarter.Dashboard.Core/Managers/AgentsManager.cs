@@ -100,7 +100,7 @@ namespace Automation.Restarter.Dashboard.Core
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            LogManager.Instance.WriteInfo("TakeAction on all agents started.);
+            LogManager.Instance.WriteInfo("TakeAction on all agents started.");
             AgentInstance agent = null;
             List<Task> tasks = new List<Task>();
             Task task = null;
