@@ -98,6 +98,9 @@ namespace Automation.Restarter.Dashboard.Core
         }
         public void TakeActionOnAllAgents()
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            LogManager.Instance.WriteInfo("TakeAction on all agents started.);
             AgentInstance agent = null;
             List<Task> tasks = new List<Task>();
             Task task = null;
@@ -115,6 +118,8 @@ namespace Automation.Restarter.Dashboard.Core
 
                 }
             }
+            LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);
+
             //Task.WaitAll(tasks.ToArray());
         }
     }
