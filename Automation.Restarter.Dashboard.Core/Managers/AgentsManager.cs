@@ -102,25 +102,15 @@ namespace Automation.Restarter.Dashboard.Core
             sw.Start();
             LogManager.Instance.WriteInfo("TakeAction on all agents started.");
             AgentInstance agent = null;
-            List<Task> tasks = new List<Task>();
-            Task task = null;
             foreach (var keyvalueAgent in m_Agents)
             {
                 agent = keyvalueAgent.Value;
                 foreach (var service in agent.Services)
                 {
-                    //    task = new Task(() =>
-                    //{
                     TakeAction(agent.ComputerName, agent.IP, service.Value, service.Key);
-                    //});
-                    //    task.Start();
-                    //    tasks.Add(task);
-
                 }
             }
             LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);
-
-            //Task.WaitAll(tasks.ToArray());
         }
     }
 }
