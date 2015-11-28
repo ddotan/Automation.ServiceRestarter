@@ -7,7 +7,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Automation.Restarter.Agent
+namespace Automation.Restarter.Agent.Host
 {
 
   [RunInstaller(true)]

@@ -28,9 +28,6 @@ C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter\
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.exe
 C:\Users\dotan.douek\Documents\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.pdb
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.exe.config
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.exe
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Contract.dll
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Core.dll
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll
@@ -40,5 +37,8 @@ C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.csprojResolveAssemblyReference.cache
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.exe
-C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.exe.config
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.exe
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.pdb
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.exe
+C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.pdb

@@ -22,9 +22,9 @@ namespace Automation.Restarter.Dashboard.Utilities
             private static T GetServiceInstance(string i_Address)
             {
                 BasicHttpBinding binding = new BasicHttpBinding();
-                binding.OpenTimeout = new TimeSpan(0, 2, 0);
-                binding.CloseTimeout = new TimeSpan(0, 2, 0);
-                binding.SendTimeout = new TimeSpan(0, 2, 0);
+                binding.OpenTimeout = new TimeSpan(0, 5, 0);
+                binding.CloseTimeout = new TimeSpan(0, 5, 0);
+                binding.SendTimeout = new TimeSpan(0, 5, 0);
                 EndpointAddress endpoint = new EndpointAddress(i_Address);
                 return ChannelFactory<T>.CreateChannel(binding, endpoint);
             }

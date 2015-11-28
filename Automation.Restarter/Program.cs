@@ -1,4 +1,5 @@
-﻿using Automation.Restarter.Agent.Core.Managers;
+﻿using Automation.Restarter.Agent.Contract;
+using Automation.Restarter.Agent.Core.Managers;
 using Automation.Restarter.Agent.Core.Repositories;
 using Logger;
 using System;
@@ -11,7 +12,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Automation.Restarter.Agent
+namespace Automation.Restarter.Agent.Host
 {
     class Program : ServiceBase
     {
@@ -32,7 +33,7 @@ namespace Automation.Restarter.Agent
                     case "-console":
 
                         runProgram();
-                        while(true)
+                        while (true)
                         {
 
                         }

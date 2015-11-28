@@ -7,8 +7,8 @@
     <ProjectGuid>{9A89FB6C-5E37-45FB-9A20-A63A7217F5FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Automation.Restarter.Agent</RootNamespace>
-    <AssemblyName>Automation.Restarter.Agent</AssemblyName>
+    <RootNamespace>Automation.Restarter.Agent.Host</RootNamespace>
+    <AssemblyName>Automation.Restarter.Agent.Host</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
