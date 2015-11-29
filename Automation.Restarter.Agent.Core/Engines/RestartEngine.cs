@@ -87,7 +87,7 @@ namespace Automation.Restarter.Agent.Core.Engines
             catch (Exception ex)
             {
                 operationDone = false;
-                result.AddResult(i_ServiceName, i_OperationType, stopWatch.Elapsed, false, ex.Message);
+                exception = ex.Message;
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Failed ! with exception: " + ex.Message);
             }
 
