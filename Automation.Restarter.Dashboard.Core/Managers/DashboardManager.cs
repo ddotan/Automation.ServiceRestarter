@@ -41,7 +41,13 @@ namespace Automation.Restarter.Dashboard.Core
         }
         public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName,string i_DisplayName, eOperationType i_OperationType)
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            LogManager.Instance.WriteInfo("Action " + Enum.GetName(typeof(eOperationType), i_OperationType) + "on all agents started ");
             m_AgentsManager.TakeAction(i_MachineName, i_IP, i_ServiceName, i_DisplayName, i_OperationType);
+            sw.Stop();
+            LogManager.Instance.WriteInfo("Action " + Enum.GetName(typeof(eOperationType), i_OperationType) + "on all agents ended, took: "+sw.ToString());
+
         }
     }
 }

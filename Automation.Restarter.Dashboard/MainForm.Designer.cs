@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridViewServices = new System.Windows.Forms.DataGridView();
             this.agentMachineName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,23 +56,26 @@
             this.dataGridViewServices.AllowUserToResizeColumns = false;
             this.dataGridViewServices.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridViewServices.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewServices.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewServices.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewServices.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewServices.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.agentMachineName,
             this.agentIP,
             this.agentServiceName});
-            this.dataGridViewServices.Location = new System.Drawing.Point(254, 39);
+            this.dataGridViewServices.Location = new System.Drawing.Point(238, 39);
             this.dataGridViewServices.Name = "dataGridViewServices";
             this.dataGridViewServices.RowHeadersWidth = 4;
-            this.dataGridViewServices.Size = new System.Drawing.Size(458, 230);
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.dataGridViewServices.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewServices.Size = new System.Drawing.Size(458, 245);
             this.dataGridViewServices.TabIndex = 0;
             // 
             // agentMachineName
@@ -100,7 +104,7 @@
             this.btnRestartAll.BackColor = System.Drawing.Color.LightGray;
             this.btnRestartAll.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestartAll.ForeColor = System.Drawing.Color.Black;
-            this.btnRestartAll.Location = new System.Drawing.Point(426, 290);
+            this.btnRestartAll.Location = new System.Drawing.Point(407, 290);
             this.btnRestartAll.Name = "btnRestartAll";
             this.btnRestartAll.Size = new System.Drawing.Size(120, 52);
             this.btnRestartAll.TabIndex = 1;
@@ -116,6 +120,7 @@
             this.dataGridViewLogs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewLogs.CausesValidation = false;
             this.dataGridViewLogs.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedVertical;
+            this.dataGridViewLogs.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dataGridViewLogs.ColumnHeadersHeight = 26;
             this.dataGridViewLogs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewLogs.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -189,7 +194,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(431, 6);
+            this.label2.Location = new System.Drawing.Point(421, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 30);
             this.label2.TabIndex = 4;
@@ -199,7 +204,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(454, 345);
+            this.label3.Location = new System.Drawing.Point(438, 345);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 30);
             this.label3.TabIndex = 5;

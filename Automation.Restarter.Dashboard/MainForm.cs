@@ -51,7 +51,10 @@ namespace Automation.Restarter.Dashboard
                 m_DashboardManager.RestartAllAgentsService();
                 m_LoadingForm.Close();
             }
-          
+            else
+            {
+                MessageBox.Show("Wrong password.");
+            }
         }
     }
 }
