@@ -87,7 +87,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Failed ! with exception: " + ex.Message);
             }
 
-            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName + " , ended");
+            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName + " , ended took: "+stopWatch.Elapsed.ToString());
             stopWatch.Stop();
             result.Elapsed = stopWatch.Elapsed;
             result.Exception = exception;

@@ -75,7 +75,7 @@
             this.dataGridViewServices.RowHeadersWidth = 4;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.dataGridViewServices.RowsDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridViewServices.Size = new System.Drawing.Size(458, 245);
+            this.dataGridViewServices.Size = new System.Drawing.Size(458, 230);
             this.dataGridViewServices.TabIndex = 0;
             // 
             // agentMachineName
