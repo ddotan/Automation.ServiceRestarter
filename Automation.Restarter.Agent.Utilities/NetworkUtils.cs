@@ -20,7 +20,6 @@ namespace Automation.Restarter.Agent.Utilities
             string localIP = string.Empty;
             try
             {
-
                 var host = Dns.GetHostEntry(Dns.GetHostName());
                 foreach (var ip in host.AddressList)
                 {
@@ -32,7 +31,6 @@ namespace Automation.Restarter.Agent.Utilities
             }
             catch (Exception ex)
             {
-
             }
             return localIP;
         }

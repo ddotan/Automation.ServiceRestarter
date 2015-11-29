@@ -88,3 +88,9 @@
 [11/30/2015 12:57:54 AM][INFO][Endpoint]: http://192.168.15.143:5050/RestartService Added
 [11/30/2015 12:57:54 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.5515113
 [11/30/2015 12:57:54 AM][INFO]DashboardManager started
+[11/30/2015 1:10:18 AM][INFO]CreateChannel operation on endpoints started
+[11/30/2015 1:10:19 AM][INFO][Endpoint]: http://172.25.0.43:5050/RestartService Added
+[11/30/2015 1:10:19 AM][INFO][Endpoint]: http://192.168.15.146:5050/RestartService Added
+[11/30/2015 1:10:20 AM][INFO][Endpoint]: http://192.168.15.143:5050/RestartService Added
+[11/30/2015 1:10:20 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.5688049
+[11/30/2015 1:10:20 AM][INFO]DashboardManager started

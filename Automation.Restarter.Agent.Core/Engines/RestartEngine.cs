@@ -33,7 +33,6 @@ namespace Automation.Restarter.Agent.Core.Engines
                 try
                 {
                     serviceIsRunning = ServiceUtils.isServiceRunning(i_ServiceName);
-
                 }
                 catch (Exception ex)
                 {
@@ -77,10 +76,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                             exception = ex.Message;
                             operationDone = false;
                         }
-
-
                         break;
-
                 }
 
             }
@@ -91,7 +87,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Failed ! with exception: " + ex.Message);
             }
 
-            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName+ " , ended");
+            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName + " , ended");
             stopWatch.Stop();
             result.Elapsed = stopWatch.Elapsed;
             result.Exception = exception;
