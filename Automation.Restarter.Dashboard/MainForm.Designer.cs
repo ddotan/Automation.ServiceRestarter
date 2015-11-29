@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewAgents = new System.Windows.Forms.DataGridView();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dataGridViewServices = new System.Windows.Forms.DataGridView();
             this.agentMachineName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.agentIP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.agentServiceName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnRestartAll = new System.Windows.Forms.Button();
             this.dataGridViewLogs = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MachineName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,44 +42,55 @@
             this.ServiceName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Information = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Elapsed = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAgents)).BeginInit();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewServices)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogs)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridViewAgents
+            // dataGridViewServices
             // 
-            this.dataGridViewAgents.AllowUserToAddRows = false;
-            this.dataGridViewAgents.AllowUserToDeleteRows = false;
-            this.dataGridViewAgents.AllowUserToResizeColumns = false;
-            this.dataGridViewAgents.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridViewAgents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAgents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewServices.AllowUserToAddRows = false;
+            this.dataGridViewServices.AllowUserToDeleteRows = false;
+            this.dataGridViewServices.AllowUserToResizeColumns = false;
+            this.dataGridViewServices.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridViewServices.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewServices.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridViewServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewServices.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.agentMachineName,
             this.agentIP,
             this.agentServiceName});
-            this.dataGridViewAgents.Location = new System.Drawing.Point(224, 33);
-            this.dataGridViewAgents.Name = "dataGridViewAgents";
-            this.dataGridViewAgents.RowHeadersWidth = 4;
-            this.dataGridViewAgents.Size = new System.Drawing.Size(459, 248);
-            this.dataGridViewAgents.TabIndex = 0;
+            this.dataGridViewServices.Location = new System.Drawing.Point(254, 39);
+            this.dataGridViewServices.Name = "dataGridViewServices";
+            this.dataGridViewServices.RowHeadersWidth = 4;
+            this.dataGridViewServices.Size = new System.Drawing.Size(458, 230);
+            this.dataGridViewServices.TabIndex = 0;
             // 
             // agentMachineName
             // 
-            this.agentMachineName.HeaderText = "MachineName";
+            this.agentMachineName.HeaderText = "Machine";
             this.agentMachineName.Name = "agentMachineName";
             this.agentMachineName.ReadOnly = true;
             this.agentMachineName.Width = 150;
             // 
             // agentIP
             // 
-            this.agentIP.HeaderText = "MachineIP";
+            this.agentIP.HeaderText = "IP";
             this.agentIP.Name = "agentIP";
             this.agentIP.ReadOnly = true;
             this.agentIP.Width = 150;
             // 
             // agentServiceName
             // 
-            this.agentServiceName.HeaderText = "ServiceName";
+            this.agentServiceName.HeaderText = "Service";
             this.agentServiceName.Name = "agentServiceName";
             this.agentServiceName.ReadOnly = true;
             this.agentServiceName.Width = 150;
@@ -88,8 +99,8 @@
             // 
             this.btnRestartAll.BackColor = System.Drawing.Color.LightGray;
             this.btnRestartAll.Font = new System.Drawing.Font("Franklin Gothic Demi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestartAll.ForeColor = System.Drawing.Color.Crimson;
-            this.btnRestartAll.Location = new System.Drawing.Point(406, 287);
+            this.btnRestartAll.ForeColor = System.Drawing.Color.Black;
+            this.btnRestartAll.Location = new System.Drawing.Point(426, 290);
             this.btnRestartAll.Name = "btnRestartAll";
             this.btnRestartAll.Size = new System.Drawing.Size(120, 52);
             this.btnRestartAll.TabIndex = 1;
@@ -124,16 +135,6 @@
             this.dataGridViewLogs.ShowCellToolTips = false;
             this.dataGridViewLogs.Size = new System.Drawing.Size(1030, 150);
             this.dataGridViewLogs.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(430, 342);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 33);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Log";
             // 
             // Time
             // 
@@ -184,21 +185,42 @@
             this.Elapsed.ReadOnly = true;
             this.Elapsed.Width = 150;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(431, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 30);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Services";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Garamond", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(454, 345);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 30);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Log";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(941, 529);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridViewLogs);
             this.Controls.Add(this.btnRestartAll);
-            this.Controls.Add(this.dataGridViewAgents);
+            this.Controls.Add(this.dataGridViewServices);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAgents)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewServices)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLogs)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -207,13 +229,9 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewAgents;
+        private System.Windows.Forms.DataGridView dataGridViewServices;
         private System.Windows.Forms.Button btnRestartAll;
         private System.Windows.Forms.DataGridView dataGridViewLogs;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn agentMachineName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn agentIP;
-        private System.Windows.Forms.DataGridViewTextBoxColumn agentServiceName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Time;
         private System.Windows.Forms.DataGridViewTextBoxColumn Type;
         private System.Windows.Forms.DataGridViewTextBoxColumn MachineName;
@@ -221,5 +239,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ServiceName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Information;
         private System.Windows.Forms.DataGridViewTextBoxColumn Elapsed;
+        private System.Windows.Forms.DataGridViewTextBoxColumn agentMachineName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn agentIP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn agentServiceName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -37,11 +37,11 @@ namespace Automation.Restarter.Dashboard.Core
         }
         public void RestartAllAgentsService()
         {
-            m_AgentsManager.TakeActionOnAllAgents();
+            m_AgentsManager.TakeActionOnAllAgents(eOperationType.ServiceRestart);
         }
-        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName,string i_DisplayName)
+        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName,string i_DisplayName, eOperationType i_OperationType)
         {
-            m_AgentsManager.TakeAction(i_MachineName, i_IP, i_ServiceName,i_DisplayName);
+            m_AgentsManager.TakeAction(i_MachineName, i_IP, i_ServiceName, i_DisplayName, i_OperationType);
         }
     }
 }

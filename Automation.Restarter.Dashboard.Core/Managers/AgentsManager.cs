@@ -49,7 +49,7 @@ namespace Automation.Restarter.Dashboard.Core
                     agentInstance = new AgentInstance(restartService);
                     agentInstance.UpdateInstanceInfo();
                     m_Agents.Add(agentInstance.IP, agentInstance);
-                    LogManager.Instance.WriteError("[Endpoint]: " + fullEndPoint );
+                    LogManager.Instance.WriteInfo("[Endpoint]: " + fullEndPoint + " Added" );
 
                 }
                 catch (Exception ex)
@@ -65,9 +65,9 @@ namespace Automation.Restarter.Dashboard.Core
         {
             loadEndPoints();
         }
-        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName, string i_DisplayName)
+        public void TakeAction(string i_MachineName, string i_IP, string i_ServiceName, string i_DisplayName, eOperationType i_OperationType)
         {
-            LogManager.Instance.WriteInfo("TakeAction action against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Started");
+            LogManager.Instance.WriteInfo("[Action]: "+Enum.GetName(typeof(eOperationType),i_OperationType)+" against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Started");
             AgentInstance agentInstance;
             try
             {
@@ -81,7 +81,8 @@ namespace Automation.Restarter.Dashboard.Core
                 }
                 else
                 {
-                    LogManager.Instance.WriteInfo("TakeAction action against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Failed");
+                    LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Failed");
+
                     foreach (Result res in result.InnerResults)
                     {
                         LogManager.Instance.WriteInfo("[Service]: " + res.Name + " [Action]: " + Enum.GetName(typeof(eOperationType), res.OperationType) + " [Exception]: " + res.Exception + " [Elapsed]: " + res.Elapsed.ToString());
@@ -94,9 +95,11 @@ namespace Automation.Restarter.Dashboard.Core
             catch (Exception ex)
             {
                 LogManager.Instance.WriteError("TakeAction action against, [MachineName]: " + i_MachineName + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " [Error]: " + ex.Message);
+                LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " [Error]: " + ex.Message);
+
             }
         }
-        public void TakeActionOnAllAgents()
+        public void TakeActionOnAllAgents(eOperationType i_OperationType)
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
@@ -107,7 +110,7 @@ namespace Automation.Restarter.Dashboard.Core
                 agent = keyvalueAgent.Value;
                 foreach (var service in agent.Services)
                 {
-                    TakeAction(agent.ComputerName, agent.IP, service.Value, service.Key);
+                    TakeAction(agent.ComputerName, agent.IP, service.Value, service.Key,i_OperationType);
                 }
             }
             LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);

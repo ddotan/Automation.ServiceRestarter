@@ -1,6 +1,7 @@
 ﻿using Automation.Restarter.Dashboard.Core;
 using Automation.Restarter.Dashboard.Core.Repository;
 using Automation.Restarter.Dashboard.ObjectModel;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,15 +22,36 @@ namespace Automation.Restarter.Dashboard
         {
             InitializeComponent();
             SystemLogManager.Instance.SetDataGridView(dataGridViewLogs);
-            m_DashboardManager = DashboardManager.Instance; 
+            m_DashboardManager = DashboardManager.Instance;
+            loadServicesDataGrid();
     
         }
-
+        private void loadServicesDataGrid()
+        {
+            var agents = AgentsManager.Instance.m_Agents;
+            string machineName, IP = string.Empty;
+            foreach(var agent in agents)
+            {
+                machineName = agent.Value.ComputerName;
+                IP = agent.Value.IP;
+                foreach(var service in agent.Value.Services)
+                {
+                    dataGridViewServices.Rows.Add(new string[] { machineName,IP,service.Key });
+                }
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            m_LoadingForm.Show();
-            m_DashboardManager.RestartAllAgentsService();
-            m_LoadingForm.Close();
+            int xPos= this.Left + (this.Width/2);
+            int yPos = this.Top + (this.Height / 2);
+            string x = Interaction.InputBox("Please enter password", "Password verfing", string.Empty, xPos-100, yPos-100);
+            if(x.ToLower() == "tech987")
+            {
+                m_LoadingForm.Show();
+                m_DashboardManager.RestartAllAgentsService();
+                m_LoadingForm.Close();
+            }
+          
         }
     }
 }

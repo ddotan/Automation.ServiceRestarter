@@ -26,7 +26,8 @@ namespace Automation.Restarter.Agent.Core.Engines
             Result result = new Result();
             result.OperationType = i_OperationType;
             stopWatch.Start();
-            LogManager.Instance.WriteInfo(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Action");
+            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName + " started");
+
             if (i_OperationType == eOperationType.ServiceRestart)
             {
                 try
@@ -90,7 +91,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " Failed ! with exception: " + ex.Message);
             }
 
-
+            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName+ " done");
             stopWatch.Stop();
             result.Elapsed = stopWatch.Elapsed;
             result.Exception = exception;
