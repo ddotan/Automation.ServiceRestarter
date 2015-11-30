@@ -20,37 +20,18 @@ namespace Automation.Restarter.Agent.Core.Engines
         public Result TakeAction(string i_ServiceName, eOperationType i_OperationType)
         {
             Stopwatch stopWatch = new Stopwatch();
-            bool serviceIsRunning = false;
             string exception = string.Empty;
             bool operationDone = true;
             Result result = new Result();
             result.OperationType = i_OperationType;
             stopWatch.Start();
             LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " on [Service]: " + i_ServiceName + " ,started");
-
-            if (i_OperationType == eOperationType.ServiceRestart)
-            {
-                try
-                {
-                    serviceIsRunning = ServiceUtils.isServiceRunning(i_ServiceName);
-                }
-                catch (Exception ex)
-                {
-                    exception = "[ServiceName]: " + i_ServiceName + " Not exsists";
-                    operationDone = false;
-                    return new Result() { OperationType = i_OperationType, Done = false, Exception = ex.Message };
-                }
-            }
-            else
-            {
-                serviceIsRunning = ServiceUtils.isServiceRunning(i_ServiceName);
-            }
             try
             {
                 switch (i_OperationType)
                 {
                     case eOperationType.StartService:
-                        if (!serviceIsRunning)
+                        if (!ServiceUtils.isServiceRunning(i_ServiceName))
                         {
                             Thread.Sleep(TimeSpan.FromSeconds(m_Configurations.WaitTimeBetweenActions));
                             ServiceUtils.StartService(i_ServiceName, m_Configurations.ServiceChangeStateWaitTime);
@@ -58,7 +39,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                         }
                         break;
                     case eOperationType.StopService:
-                        if (serviceIsRunning)
+                        if (ServiceUtils.isServiceRunning(i_ServiceName))
                         {
                             ServiceUtils.StopService(i_ServiceName, m_Configurations.ServiceChangeStateWaitTime);
                             Thread.Sleep(TimeSpan.FromSeconds(m_Configurations.WaitTimeBetweenActions));
@@ -69,7 +50,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                         {
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StopService));
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StartService));
-                            operationDone = checkIfOperationFailed(result);
+                            operationDone = isMainOperationDone(result);
                         }
                         catch (Exception ex)
                         {
@@ -78,7 +59,6 @@ namespace Automation.Restarter.Agent.Core.Engines
                         }
                         break;
                 }
-
             }
             catch (Exception ex)
             {
@@ -94,7 +74,7 @@ namespace Automation.Restarter.Agent.Core.Engines
             result.Done = operationDone;
             return result;
         }
-        bool checkIfOperationFailed(Result i_Result)
+        bool isMainOperationDone(Result i_Result)
         {
             bool done = true;
             foreach (Result rs in i_Result.InnerResults)
