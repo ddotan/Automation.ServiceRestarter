@@ -17,7 +17,6 @@ namespace Automation.Restarter.Dashboard
     public partial class MainForm : Form
     {
         private DashboardManager m_DashboardManager;
-        private LoadingForm m_LoadingForm = new LoadingForm();
         public MainForm()
         {
             InitializeComponent();
@@ -42,14 +41,15 @@ namespace Automation.Restarter.Dashboard
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            LoadingForm loadingForm = new LoadingForm();
             int xPos= this.Left + (this.Width/2);
             int yPos = this.Top + (this.Height / 2);
             string x = Interaction.InputBox("Please enter password", "Password verfing", string.Empty, xPos-100, yPos-100);
             if(x.ToLower() == "tech987")
             {
-                m_LoadingForm.Show();
+                loadingForm.Show();
                 m_DashboardManager.RestartAllAgentsService();
-                m_LoadingForm.Close();
+                loadingForm.Close();
             }
             else
             {
