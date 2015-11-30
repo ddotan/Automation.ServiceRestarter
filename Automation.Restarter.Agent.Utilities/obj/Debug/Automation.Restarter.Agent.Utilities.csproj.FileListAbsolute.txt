@@ -14,6 +14,5 @@ C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\bin\Debug\Automation.Restarter.Agent.Utilities.dll
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.dll
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Utilities\obj\Debug\Automation.Restarter.Agent.Utilities.pdb

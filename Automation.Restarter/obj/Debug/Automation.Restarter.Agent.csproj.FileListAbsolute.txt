@@ -43,8 +43,6 @@ C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.exe
 C:\Users\Dotan\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.exe.config
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.exe
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.exe
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Host.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Contract.dll
@@ -57,3 +55,5 @@ C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Res
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\bin\Debug\Automation.Restarter.Agent.Utilities.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.csprojResolveAssemblyReference.cache
+C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.exe
+C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter\obj\Debug\Automation.Restarter.Agent.Host.pdb

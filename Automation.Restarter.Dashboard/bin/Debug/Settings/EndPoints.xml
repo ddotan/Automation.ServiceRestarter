@@ -1,15 +1,28 @@
 <?xml version="1.0"?>
 <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <string>172.25.0.44</string> 
- <!-- <string>172.25.0.43</string> -->
-<!--   <string>192.168.15.146</string>
-  <string>192.168.15.143</string> -->
-<!--   <string>192.168.15.150</string>
-  <string>192.168.15.148</string>
-  <string>192.168.15.153</string>
-  <string>192.168.15.151</string>
-  <string>192.168.15.157</string>
+<string>192.168.15.143</string>
+<string>192.168.15.153</string>
+<string>192.168.15.148</string>
+<string>172.25.0.44</string>
+<string>192.168.15.142</string>
+<string>192.168.15.157</string>
+<string>192.168.15.146</string>
+<string>192.168.15.99</string>
+<string>192.168.15.103</string>
+<string>192.168.15.101</string>
+<string>192.168.15.90</string>
+<string>192.168.15.91</string>
+<string>192.168.15.150</string>
+<string>192.168.15.151</string>
+<string>192.168.15.152</string>
+<string>172.25.0.43</string>
+<string>172.25.0.24</string>
+<string>172.25.0.112</string>
+<string>192.168.16.46</string>
+<string>149.5.82.70</string>
+<string>149.5.82.69</string>
+<string>172.26.1.10</string>
+<string>172.26.1.47</string>
 
-  <string>192.168.15.142</string>
-  <string>192.168.15.152</string> -->
+
 </ArrayOfString>
