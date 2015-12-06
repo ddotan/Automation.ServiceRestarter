@@ -83,6 +83,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 if (rs.Done == false)
                 {
                     done = false;
+
                 }
             }
             return done;

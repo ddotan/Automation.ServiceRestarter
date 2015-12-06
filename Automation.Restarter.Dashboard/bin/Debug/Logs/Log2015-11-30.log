@@ -201,3 +201,29 @@
 [11/30/2015 6:35:24 PM][INFO][Endpoint]: http://172.26.1.47:5050/RestartService Added
 [11/30/2015 6:35:24 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:20.2869719
 [11/30/2015 6:35:24 PM][INFO]DashboardManager started
+[11/30/2015 9:12:01 PM][INFO]CreateChannel operation on endpoints started
+[11/30/2015 9:12:01 PM][INFO][Endpoint]: http://192.168.15.143:5050/RestartService Added
+[11/30/2015 9:12:02 PM][INFO][Endpoint]: http://192.168.15.153:5050/RestartService Added
+[11/30/2015 9:12:02 PM][INFO][Endpoint]: http://192.168.15.148:5050/RestartService Added
+[11/30/2015 9:12:03 PM][INFO][Endpoint]: http://172.25.0.44:5050/RestartService Added
+[11/30/2015 9:12:03 PM][INFO][Endpoint]: http://192.168.15.142:5050/RestartService Added
+[11/30/2015 9:12:04 PM][INFO][Endpoint]: http://192.168.15.157:5050/RestartService Added
+[11/30/2015 9:12:04 PM][INFO][Endpoint]: http://192.168.15.146:5050/RestartService Added
+[11/30/2015 9:12:05 PM][INFO][Endpoint]: http://192.168.15.99:5050/RestartService Added
+[11/30/2015 9:12:05 PM][INFO][Endpoint]: http://192.168.15.103:5050/RestartService Added
+[11/30/2015 9:12:06 PM][INFO][Endpoint]: http://192.168.15.101:5050/RestartService Added
+[11/30/2015 9:12:07 PM][INFO][Endpoint]: http://192.168.15.90:5050/RestartService Added
+[11/30/2015 9:12:07 PM][INFO][Endpoint]: http://192.168.15.91:5050/RestartService Added
+[11/30/2015 9:12:08 PM][INFO][Endpoint]: http://192.168.15.150:5050/RestartService Added
+[11/30/2015 9:12:08 PM][INFO][Endpoint]: http://192.168.15.151:5050/RestartService Added
+[11/30/2015 9:12:09 PM][INFO][Endpoint]: http://192.168.15.152:5050/RestartService Added
+[11/30/2015 9:12:09 PM][INFO][Endpoint]: http://172.25.0.43:5050/RestartService Added
+[11/30/2015 9:12:10 PM][INFO][Endpoint]: http://172.25.0.24:5050/RestartService Added
+[11/30/2015 9:12:10 PM][INFO][Endpoint]: http://172.25.0.112:5050/RestartService Added
+[11/30/2015 9:12:14 PM][INFO][Endpoint]: http://192.168.16.46:5050/RestartService Added
+[11/30/2015 9:12:14 PM][INFO][Endpoint]: http://149.5.82.70:5050/RestartService Added
+[11/30/2015 9:12:15 PM][INFO][Endpoint]: http://149.5.82.69:5050/RestartService Added
+[11/30/2015 9:12:15 PM][INFO][Endpoint]: http://172.26.1.10:5050/RestartService Added
+[11/30/2015 9:12:16 PM][INFO][Endpoint]: http://172.26.1.47:5050/RestartService Added
+[11/30/2015 9:12:16 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:15.2895486
+[11/30/2015 9:12:16 PM][INFO]DashboardManager started

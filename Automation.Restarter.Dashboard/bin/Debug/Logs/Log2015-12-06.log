@@ -1,0 +1,17 @@
+[12/6/2015 8:25:01 PM][INFO]CreateChannel operation on endpoints started
+[12/6/2015 8:25:02 PM][INFO][Endpoint]: http://192.168.15.132:5050/RestartService Added
+[12/6/2015 8:25:03 PM][INFO][Endpoint]: http://192.168.15.130:5050/RestartService Added
+[12/6/2015 8:25:05 PM][INFO][Endpoint]: http://192.168.15.199:5050/RestartService Added
+[12/6/2015 8:25:06 PM][INFO][Endpoint]: http://192.168.15.198:5050/RestartService Added
+[12/6/2015 8:25:06 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:05.6528653
+[12/6/2015 8:25:06 PM][INFO]DashboardManager started
+[12/6/2015 8:25:11 PM][INFO]TakeAction on all agents started.
+[12/6/2015 8:25:11 PM][INFO][Action]: ServiceRestart against, [MachineName]: ESLIVE2 [IP]: 172.25.1.132 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [ES]Central6 [B-Book] => Started
+[12/6/2015 8:26:25 PM][INFO]TakeAction action against, [MachineName]: ESLIVE2 [IP]: 172.25.1.132 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [ES]Central6 [B-Book] => Done, [Result]: Success [Elapsed]: 00:01:13.8063862
+[12/6/2015 8:26:25 PM][INFO][Action]: ServiceRestart against, [MachineName]: ESLIVE1 [IP]: 172.25.1.130 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [ES]Central1 [B-Book] => Started
+[12/6/2015 8:27:45 PM][INFO]TakeAction action against, [MachineName]: ESLIVE1 [IP]: 172.25.1.130 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [ES]Central1 [B-Book] => Done, [Result]: Success [Elapsed]: 00:01:19.3438558
+[12/6/2015 8:27:45 PM][INFO][Action]: ServiceRestart against, [MachineName]: TPLIVE2 [IP]: 192.168.15.199 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [TP]Central6 [B-Book] => Started
+[12/6/2015 8:28:58 PM][INFO]TakeAction action against, [MachineName]: TPLIVE2 [IP]: 192.168.15.199 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [TP]Central6 [B-Book] => Done, [Result]: Success [Elapsed]: 00:01:12.5918483
+[12/6/2015 8:28:58 PM][INFO][Action]: ServiceRestart against, [MachineName]: TPLIVE1 [IP]: 192.168.15.198 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [TP]Central1 [B-Book] => Started
+[12/6/2015 8:30:21 PM][INFO]TakeAction action against, [MachineName]: TPLIVE1 [IP]: 192.168.15.198 [ServiceName]: LeverateLiveServiceV2.4 [DisplayName]: [TP]Central1 [B-Book] => Done, [Result]: Success [Elapsed]: 00:01:21.6316061
+[12/6/2015 8:30:21 PM][INFO]TakeAction on all agents started, elapsed: 00:05:09.3513863
