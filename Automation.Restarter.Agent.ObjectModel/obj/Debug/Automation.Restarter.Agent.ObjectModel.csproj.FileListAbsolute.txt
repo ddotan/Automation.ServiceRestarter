@@ -10,3 +10,6 @@ C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Res
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\bin\Debug\Automation.Restarter.Agent.ObjectModel.pdb
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\obj\Debug\Automation.Restarter.Agent.ObjectModel.dll
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\obj\Debug\Automation.Restarter.Agent.ObjectModel.pdb
+C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll.CodeAnalysisLog.xml
+C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\bin\Debug\Automation.Restarter.Agent.ObjectModel.dll.lastcodeanalysissucceeded
+C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.ObjectModel\obj\Debug\Automation.Restarter.Agent.ObjectModel.csprojResolveAssemblyReference.cache
