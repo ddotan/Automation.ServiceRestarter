@@ -54,7 +54,6 @@
             this.dataGridViewServices.AllowUserToAddRows = false;
             this.dataGridViewServices.AllowUserToDeleteRows = false;
             this.dataGridViewServices.AllowUserToResizeColumns = false;
-            this.dataGridViewServices.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridViewServices.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridViewServices.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
@@ -214,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(941, 529);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

@@ -1,0 +1,118 @@
+[12/17/2015 10:12:20 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 10:12:21 AM][INFO][Endpoint]: http://192.168.15.132:5050/RestartService Added
+[12/17/2015 10:12:21 AM][INFO][Endpoint]: http://192.168.15.130:5050/RestartService Added
+[12/17/2015 10:12:24 AM][INFO][Endpoint]: http://192.168.15.199:5050/RestartService Added
+[12/17/2015 10:12:26 AM][INFO][Endpoint]: http://192.168.15.198:5050/RestartService Added
+[12/17/2015 10:12:26 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:05.3492045
+[12/17/2015 10:12:26 AM][INFO]DashboardManager started
+[12/17/2015 11:33:05 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:33:06 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:33:06 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:33:06 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.0269090
+[12/17/2015 11:33:06 AM][INFO]DashboardManager started
+[12/17/2015 11:33:31 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:33:32 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:33:32 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:33:32 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.1847514
+[12/17/2015 11:33:32 AM][INFO]DashboardManager started
+[12/17/2015 11:33:43 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:34:01 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:34:02 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:34:02 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:34:02 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.0936732
+[12/17/2015 11:34:02 AM][INFO]DashboardManager started
+[12/17/2015 11:34:05 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:34:05 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Started
+[12/17/2015 11:35:06 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Done, [Result]: Success [Elapsed]: 00:01:00.5303574
+[12/17/2015 11:35:06 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:35:40 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Done, [Result]: Success [Elapsed]: 00:00:34.3020615
+[12/17/2015 11:38:16 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:38:17 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:38:17 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:38:17 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.0905589
+[12/17/2015 11:38:17 AM][INFO]DashboardManager started
+[12/17/2015 11:38:20 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:38:20 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:38:20 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:38:53 AM][ERROR][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Done, [Result]: Failed
+[12/17/2015 11:38:53 AM][ERROR][Service]:  [Action]: StopService [Done]: False [Exception]: Cannot stop Leverate Q-Monitoring service on computer '.'. [Elapsed]: 00:00:00.0077534
+[12/17/2015 11:38:53 AM][ERROR][Service]:  [Action]: StartService [Done]: True [Exception]:  [Elapsed]: 00:00:33.5507030
+[12/17/2015 11:38:53 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:39:20 AM][ERROR][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Done, [Result]: Failed
+[12/17/2015 11:39:20 AM][ERROR][Service]:  [Action]: StopService [Done]: True [Exception]:  [Elapsed]: 00:00:30.2809483
+[12/17/2015 11:39:20 AM][ERROR][Service]:  [Action]: StartService [Done]: False [Exception]: Service already running. [Elapsed]: 00:00:30.0164735
+[12/17/2015 11:39:20 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:39:20 AM][INFO]TakeAction on all agents started, elapsed: 00:01:00.4026268
+[12/17/2015 11:39:20 AM][INFO]Results : 2operations out of 2 was faulted
+[12/17/2015 11:39:54 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:39:56 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:39:56 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:39:56 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.1423101
+[12/17/2015 11:39:56 AM][INFO]DashboardManager started
+[12/17/2015 11:39:58 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:39:58 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:39:58 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:40:49 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:40:50 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:40:50 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:40:50 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.0522595
+[12/17/2015 11:40:50 AM][INFO]DashboardManager started
+[12/17/2015 11:40:53 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:40:53 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Started
+[12/17/2015 11:40:53 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:41:23 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:41:53 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:41:53 AM][INFO]TakeAction on all agents started, elapsed: 00:01:00.7243759
+[12/17/2015 11:41:53 AM][INFO]Results : 0operations out of 2 was faulted
+[12/17/2015 11:44:07 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:44:11 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:44:11 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:44:11 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:04.2130849
+[12/17/2015 11:44:11 AM][INFO]DashboardManager started
+[12/17/2015 11:44:25 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:44:26 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:44:26 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:44:26 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:01.1247470
+[12/17/2015 11:44:26 AM][INFO]DashboardManager started
+[12/17/2015 11:44:34 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:44:34 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Started
+[12/17/2015 11:44:34 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:45:35 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:45:35 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 => Started
+[12/17/2015 11:45:38 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:45:38 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc => Started
+[12/17/2015 11:46:05 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:46:05 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Started
+[12/17/2015 11:46:36 AM][ERROR][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Done, [Result]: Failed
+[12/17/2015 11:46:36 AM][ERROR][Service]:  [Action]: StopService [Done]: False [Exception]: Time out has expired and the operation has not been completed. [Elapsed]: 00:00:30.6738938
+[12/17/2015 11:46:36 AM][ERROR][Service]:  [Action]: StartService [Done]: True [Exception]:  [Elapsed]: 00:00:00.0016189
+[12/17/2015 11:46:36 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:46:40 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:46:40 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler => Started
+[12/17/2015 11:47:40 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler [Error]: Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:47:40 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Started
+[12/17/2015 11:48:41 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum [Error]: Cross-thread operation not valid: Control 'dataGridViewLogs' accessed from a thread other than the thread it was created on.
+[12/17/2015 11:48:41 AM][INFO]TakeAction on all agents started, elapsed: 00:04:06.5693967
+[12/17/2015 11:48:41 AM][INFO]Results : 1operations out of 7 was faulted
+[12/17/2015 11:49:04 AM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 11:49:05 AM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 11:49:05 AM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 11:49:05 AM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:00.6429292
+[12/17/2015 11:49:05 AM][INFO]DashboardManager started
+[12/17/2015 11:49:08 AM][INFO]TakeAction on all agents started.
+[12/17/2015 11:49:08 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Started
+[12/17/2015 11:49:08 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 11:50:08 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Done, [Result]: Success [Elapsed]: 00:01:00.2682903
+[12/17/2015 11:50:08 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 => Started
+[12/17/2015 11:50:12 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Done, [Result]: Success [Elapsed]: 00:01:04.0296249
+[12/17/2015 11:50:12 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc => Started
+[12/17/2015 11:51:09 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 => Done, [Result]: Success [Elapsed]: 00:01:00.5177409
+[12/17/2015 11:51:09 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Started
+[12/17/2015 11:51:13 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc => Done, [Result]: Success [Elapsed]: 00:01:01.3700210
+[12/17/2015 11:51:13 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler => Started
+[12/17/2015 11:52:10 AM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Done, [Result]: Success [Elapsed]: 00:01:00.7779115
+[12/17/2015 11:52:14 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler => Done, [Result]: Success [Elapsed]: 00:01:00.5534946
+[12/17/2015 11:52:14 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Started
+[12/17/2015 11:53:14 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Done, [Result]: Success [Elapsed]: 00:01:00.5531601
+[12/17/2015 11:53:14 AM][INFO]TakeAction on all agents started, elapsed: 00:04:06.5583160
+[12/17/2015 11:53:14 AM][INFO]Results : 0operations out of 7 was faulted

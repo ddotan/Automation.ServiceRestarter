@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Automation.Restarter.Dashboard.Core
@@ -106,27 +107,38 @@ namespace Automation.Restarter.Dashboard.Core
         {
             Stopwatch sw = new Stopwatch();
             sw.Start();
+            ThreadPool.SetMaxThreads(5, 5);
             LogManager.Instance.WriteInfo("TakeAction on all agents started.");
             AgentInstance agent = null;
             bool finalResult = false;
             int numOfOperations = 0;
             int faultedOperations = 0;
+            Task task = null;
+            List<Task> tasks = new List<Task>();
             foreach (var keyvalueAgent in m_Agents)
             {
 
-                agent = keyvalueAgent.Value;
-                foreach (var service in agent.Services)
+                task = new Task(() =>
                 {
-                    numOfOperations++;
-                    finalResult = TakeAction(agent.ComputerName, agent.IP, service.Value, service.Key, i_OperationType);
-                    if (!finalResult)
+                    AgentInstance agente = keyvalueAgent.Value;
+
+                    foreach (var service in agente.Services)
                     {
-                        faultedOperations++;
+                        numOfOperations++;
+                        finalResult = TakeAction(agente.ComputerName, agente.IP, service.Value, service.Key, i_OperationType);
+                        if (!finalResult)
+                        {
+                            faultedOperations++;
+                        }
                     }
-                }
+                });
+                task.Start();
+                tasks.Add(task);
             }
-            LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);
-            LogManager.Instance.WriteInfo("Results : " + faultedOperations + "operations out of " + numOfOperations + " was faulted");
+
+                Task.WaitAll(tasks.ToArray());
+                LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);
+                LogManager.Instance.WriteInfo("Results : " + faultedOperations + "operations out of " + numOfOperations + " was faulted");
         }
     }
 }

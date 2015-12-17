@@ -25,5 +25,3 @@ C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Res
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.dll
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\obj\Debug\Automation.Restarter.Dashboard.ObjectModel.pdb
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Dashboard.ObjectModel.dll.CodeAnalysisLog.xml
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Dashboard.ObjectModel\bin\Debug\Automation.Restarter.Dashboard.ObjectModel.dll.lastcodeanalysissucceeded

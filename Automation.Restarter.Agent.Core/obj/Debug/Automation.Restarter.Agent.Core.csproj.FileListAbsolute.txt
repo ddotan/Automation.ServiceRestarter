@@ -45,5 +45,3 @@ C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Res
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.csprojResolveAssemblyReference.cache
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.dll
 C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\obj\Debug\Automation.Restarter.Agent.Core.pdb
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.dll.CodeAnalysisLog.xml
-C:\Users\dotan.douek\Documents\GitHub\Automation.ServiceRestarter\Automation.Restarter.Agent.Core\bin\Debug\Automation.Restarter.Agent.Core.dll.lastcodeanalysissucceeded
