@@ -138,3 +138,8 @@
 [12/17/2015 12:14:53 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Done, [Result]: Success [Elapsed]: 00:01:00.5555988
 [12/17/2015 12:14:53 PM][INFO]TakeAction on all agents started, elapsed: 00:04:06.6423581
 [12/17/2015 12:14:53 PM][INFO]Results : 0operations out of 7 was faulted
+[12/17/2015 12:24:12 PM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 12:24:13 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://172.25.0.68:5050/RestartService [Exception]: There was no endpoint listening at http://172.25.0.68:5050/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[12/17/2015 12:24:14 PM][ERROR]Error while trying to CreateChannel , [Endpoint]: http://support-tools:5050/RestartService [Exception]: There was no endpoint listening at http://support-tools:5050/RestartService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+[12/17/2015 12:24:14 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:02.3306235
+[12/17/2015 12:24:14 PM][INFO]DashboardManager started

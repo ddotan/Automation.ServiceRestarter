@@ -68,7 +68,8 @@ namespace Automation.Restarter.Dashboard.Core
         }
         public bool TakeAction(string i_MachineName, string i_IP, string i_ServiceName, string i_DisplayName, eOperationType i_OperationType)
         {
-            LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Started");
+            string ServiceID = Guid.NewGuid().ToString();
+            LogManager.Instance.WriteInfo("["+ServiceID+"][Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " , [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Started");
             AgentInstance agentInstance;
             bool finalResult = false;
             try
@@ -80,17 +81,15 @@ namespace Automation.Restarter.Dashboard.Core
                 {
 
                     SystemLogManager.Instance.Log(eLogType.Info, agentInstance, i_DisplayName, "Success", result.Elapsed.ToString());
-                    LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Success" + " [Elapsed]: " + result.Elapsed.ToString());
-
+                    LogManager.Instance.WriteInfo("[" + ServiceID + "][Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " , [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Success" + " [Elapsed]: " + result.Elapsed.ToString());
                 }
                 else
                 {
-                    LogManager.Instance.WriteError("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Failed");
+                    LogManager.Instance.WriteError("[" + ServiceID + "][Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " , [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " => Done, [Result]: Failed");
 
                     foreach (Result res in result.InnerResults)
                     {
-                        LogManager.Instance.WriteError("[Service]: " + res.Name + " [Action]: " + Enum.GetName(typeof(eOperationType), res.OperationType) + " [Done]: " + res.Done + " [Exception]: " + res.Exception + " [Elapsed]: " + res.Elapsed.ToString());
-
+                        LogManager.Instance.WriteError("[" + ServiceID + "][Service]: " + res.Name + " [Action]: " + Enum.GetName(typeof(eOperationType), res.OperationType) + " [Done]: " + res.Done + " [Exception]: " + res.Exception + " [Elapsed]: " + res.Elapsed.ToString());
                     }
                     SystemLogManager.Instance.Log(eLogType.Error, agentInstance, i_DisplayName, "Failed", result.Elapsed.ToString());
 
@@ -98,7 +97,7 @@ namespace Automation.Restarter.Dashboard.Core
             }
             catch (Exception ex)
             {
-                LogManager.Instance.WriteInfo("[Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " against, [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " [Error]: " + ex.Message);
+                LogManager.Instance.WriteInfo("[" + ServiceID + "][Action]: " + Enum.GetName(typeof(eOperationType), i_OperationType) + " , [MachineName]: " + i_MachineName + " [IP]: " + i_IP + " [ServiceName]: " + i_ServiceName + " [DisplayName]: " + i_DisplayName + " [Error]: " + ex.Message);
 
             }
             return finalResult;
