@@ -116,3 +116,25 @@
 [12/17/2015 11:53:14 AM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Done, [Result]: Success [Elapsed]: 00:01:00.5531601
 [12/17/2015 11:53:14 AM][INFO]TakeAction on all agents started, elapsed: 00:04:06.5583160
 [12/17/2015 11:53:14 AM][INFO]Results : 0operations out of 7 was faulted
+[12/17/2015 12:10:40 PM][INFO]CreateChannel operation on endpoints started
+[12/17/2015 12:10:40 PM][INFO][Endpoint]: http://172.25.0.68:5050/RestartService Added
+[12/17/2015 12:10:40 PM][INFO][Endpoint]: http://support-tools:5050/RestartService Added
+[12/17/2015 12:10:40 PM][INFO]CreateChannel operation on endpoints ended, elapsed: 00:00:00.6163061
+[12/17/2015 12:10:40 PM][INFO]DashboardManager started
+[12/17/2015 12:10:46 PM][INFO]TakeAction on all agents started.
+[12/17/2015 12:10:46 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Started
+[12/17/2015 12:10:46 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Started
+[12/17/2015 12:11:46 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: FontCache [DisplayName]: FontCacheService => Done, [Result]: Success [Elapsed]: 00:01:00.2645452
+[12/17/2015 12:11:46 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 => Started
+[12/17/2015 12:11:50 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Leverate Q-Monitoring [DisplayName]: Leverate Q-Monitoring => Done, [Result]: Success [Elapsed]: 00:01:04.3482243
+[12/17/2015 12:11:50 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc => Started
+[12/17/2015 12:12:47 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: fdPHost [DisplayName]: FontCacheService2 => Done, [Result]: Success [Elapsed]: 00:01:00.2590151
+[12/17/2015 12:12:47 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Started
+[12/17/2015 12:12:52 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ftpsvc [DisplayName]: ftpsvc => Done, [Result]: Success [Elapsed]: 00:01:01.3984554
+[12/17/2015 12:12:52 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler => Started
+[12/17/2015 12:13:48 PM][INFO][Action]: ServiceRestart against, [MachineName]: ES-TECHSUPPORT [IP]: 172.25.0.68 [ServiceName]: BFE [DisplayName]: FontCacheService3 => Done, [Result]: Success [Elapsed]: 00:01:00.7653535
+[12/17/2015 12:13:52 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: Spooler [DisplayName]: Spooler => Done, [Result]: Success [Elapsed]: 00:01:00.2919130
+[12/17/2015 12:13:52 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Started
+[12/17/2015 12:14:53 PM][INFO][Action]: ServiceRestart against, [MachineName]: SUPPORT-TOOLS [IP]: 192.168.3.107 [ServiceName]: ScDeviceEnum [DisplayName]: ScDeviceEnum => Done, [Result]: Success [Elapsed]: 00:01:00.5555988
+[12/17/2015 12:14:53 PM][INFO]TakeAction on all agents started, elapsed: 00:04:06.6423581
+[12/17/2015 12:14:53 PM][INFO]Results : 0operations out of 7 was faulted
