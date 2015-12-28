@@ -25,7 +25,7 @@ namespace Automation.Restarter.Agent.Core.Engines
             Result result = new Result();
             result.OperationType = i_OperationType;
             stopWatch.Start();
-            LogManager.Instance.WriteInfo(i_ServiceName + " => "+Enum.GetName(typeof(eOperationType), i_OperationType) +  ", action started");
+            LogManager.Instance.WriteInfo(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + ", action started");
             try
             {
                 switch (i_OperationType)
@@ -45,12 +45,28 @@ namespace Automation.Restarter.Agent.Core.Engines
                             Thread.Sleep(TimeSpan.FromSeconds(m_Configurations.WaitTimeBetweenActions));
                         }
                         break;
-                    case eOperationType.ServiceRestart:
+                    case eOperationType.RestartService:
                         try
                         {
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StopService));
                             result.AddResult(TakeAction(i_ServiceName, eOperationType.StartService));
-                            operationDone = isMainOperationDone(result);
+                            if (isMainOperationDone(result, eOperationType.StartService))
+                            {
+                                operationDone = true;
+                            }
+                            else
+                            {
+                                if (ServiceUtils.isServiceRunning(i_ServiceName))
+                                {
+                                    operationDone = true;
+                                }
+                                else
+                                {
+                                    operationDone = false;
+                                }
+
+                            }
+
                         }
                         catch (Exception ex)
                         {
@@ -67,7 +83,7 @@ namespace Automation.Restarter.Agent.Core.Engines
                 LogManager.Instance.WriteError(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + " faulted! with exception: " + ex.Message);
             }
 
-            LogManager.Instance.WriteInfo(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + ", action ended ,took: "+stopWatch.Elapsed.ToString());
+            LogManager.Instance.WriteInfo(i_ServiceName + " => " + Enum.GetName(typeof(eOperationType), i_OperationType) + ", action ended ,took: " + stopWatch.Elapsed.ToString());
 
             stopWatch.Stop();
             result.Elapsed = stopWatch.Elapsed;
@@ -75,18 +91,15 @@ namespace Automation.Restarter.Agent.Core.Engines
             result.Done = operationDone;
             return result;
         }
-        bool isMainOperationDone(Result i_Result)
+        bool isMainOperationDone(Result i_Result, eOperationType i_MostImportantAction)
         {
-            bool done = true;
-            foreach (Result rs in i_Result.InnerResults)
+            bool mainOperationDone = false;
+            Result LastOperationInProdecureResult = i_Result.InnerResults.Find(x => x.OperationType == i_MostImportantAction);
+            if(LastOperationInProdecureResult != null)
             {
-                if (rs.Done == false)
-                {
-                    done = false;
-
-                }
+                mainOperationDone= LastOperationInProdecureResult.Done;
             }
-            return done;
+            return mainOperationDone;
         }
 
 

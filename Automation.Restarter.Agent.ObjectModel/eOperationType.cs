@@ -10,6 +10,7 @@ namespace Automation.Restarter.Agent.ObjectModel
     {
         StartService,
         StopService,
-        ServiceRestart
+        ServiceRestart,
+        RestartService
     }
 }

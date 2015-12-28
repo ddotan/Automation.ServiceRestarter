@@ -107,7 +107,7 @@ namespace Automation.Restarter.Dashboard.Core
             Stopwatch sw = new Stopwatch();
             sw.Start();
             ThreadPool.SetMaxThreads(5, 5);
-            LogManager.Instance.WriteInfo("TakeAction on all agents started.");
+            LogManager.Instance.WriteInfo(Enum.GetName(i_OperationType.GetType(),i_OperationType)+" action on all agents started.");
             AgentInstance agent = null;
             bool finalResult = false;
             int numOfOperations = 0;
@@ -136,8 +136,8 @@ namespace Automation.Restarter.Dashboard.Core
             }
 
                 Task.WaitAll(tasks.ToArray());
-                LogManager.Instance.WriteInfo("TakeAction on all agents started, elapsed: " + sw.Elapsed);
-                LogManager.Instance.WriteInfo("Results : " + faultedOperations + "operations out of " + numOfOperations + " was faulted");
+                LogManager.Instance.WriteInfo(Enum.GetName(i_OperationType.GetType(),i_OperationType)+" action on all agents ended, elapsed: " + sw.Elapsed);
+                LogManager.Instance.WriteInfo("Results : " + faultedOperations + "  out of " + numOfOperations + " operations failed");
         }
     }
 }
